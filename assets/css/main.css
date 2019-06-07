@@ -121,6 +121,11 @@ section>header div h1{
   margin: 30px;
 
 }
+
+h2{
+  font-size: 19px;
+  font-weight: 600;
+}
 section>header figure>img{
   width: 800px;
 }
@@ -183,6 +188,12 @@ figure>img{
   position: relative;
   left: -100px;
 }
+
+.article-content>p{
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-size: 19px;
+}
 #inflation-img{
   width: 720px;
   position: absolute;
@@ -194,18 +205,34 @@ figure>img{
 #inflation-figure{
   width: 720px;
   position: static;
-  margin: 15px 0px; 
+  margin: 15px 0 20px; 
 
 }
 #inflation-figure h2{  
-  font-size: 1.4em;
+  font-size: 18px;
   font-family: 'Noto Sans HK', sans-serif;
+  margin-bottom: 8px;
 }
-#infation-figure p{
+#inflation-figure p{
   color: #666666;
   font-family: 'EB Garamond', serif;
+  font-size: 14px;
 }
 
+#inflation-figure figcaption{
+  margin-top: 370px;
+}
+
+.figcaption-separator{
+  width: 50px;
+  height: 1px;
+  background: #333;
+  margin: 20px 0;
+}
+figcaption{
+  font-size: 14px;
+  color: #333;
+}
 .image-space{
   height: 200px;
 }
@@ -215,14 +242,16 @@ figure>img{
   float: left;
   z-index: 2;
   top: 140px;
-  font-size: 0.95em;
+  font-size: 14px;
+  color: #2f2f2f;
+  line-height: 1.2;
 }
 .text-container strong{
   font-weight: 600;
 }
 .img-floating{
   position: relative;
-  
+  margin-top: 10px;
 }
 .text-separator{
   height: 150px;
