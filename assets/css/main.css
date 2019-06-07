@@ -110,6 +110,7 @@ main{
   padding-top: 53px;
   width: 600px;
   margin: auto;
+  overflow: hidden;
 }
 /* main */
 
@@ -171,4 +172,60 @@ figcaption>span{
 }
 .header-article{
   margin-bottom: 20px;
+}
+
+figure>img{
+  width: 920px;
+
+}
+.article-content>figure{
+  display: block;
+  position: relative;
+  left: -100px;
+}
+#inflation-img{
+  width: 720px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+}
+#inflation-figure{
+  width: 720px;
+  position: static;
+  margin: 15px 0px; 
+
+}
+#inflation-figure h2{  
+  font-size: 1.4em;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+#infation-figure p{
+  color: #666666;
+  font-family: 'EB Garamond', serif;
+}
+
+.image-space{
+  height: 200px;
+}
+.text-container{
+  position: relative;
+  width: 180px;
+  float: left;
+  z-index: 2;
+  top: 140px;
+  font-size: 0.95em;
+}
+.text-container strong{
+  font-weight: 600;
+}
+.img-floating{
+  position: relative;
+  
+}
+.text-separator{
+  height: 150px;
+  position: relative;
+  clear: both;
 }
