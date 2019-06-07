@@ -110,7 +110,7 @@ main{
   padding-top: 53px;
   width: 600px;
   margin: auto;
-  overflow: hidden;
+  
 }
 /* main */
 
@@ -125,6 +125,7 @@ section>header div h1{
 h2{
   font-size: 19px;
   font-weight: 600;
+  margin: 15px 0
 }
 section>header figure>img{
   width: 800px;
@@ -134,9 +135,11 @@ section>header figure{
   position: relative;
   left: -100px;
 }
-figcaption{
-  font-size: 0.7em;
+figcaption, footer p{
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
 }
 figcaption>span{
   font-family: 'Slabo 27px', serif;
@@ -193,6 +196,10 @@ figure>img{
   line-height: 1.5;
   margin-bottom: 15px;
   font-size: 19px;
+  font-family: 'Hind Madurai', sans-serif;
+}
+.inflation-section{
+  overflow: hidden;
 }
 #inflation-img{
   width: 720px;
@@ -228,11 +235,9 @@ figure>img{
   height: 1px;
   background: #333;
   margin: 20px 0;
+  
 }
-figcaption{
-  font-size: 14px;
-  color: #333;
-}
+
 .image-space{
   height: 200px;
 }
@@ -257,4 +262,35 @@ figcaption{
   height: 150px;
   position: relative;
   clear: both;
+}
+.video-container{
+  margin: 40px 0;
+}
+.video-container div>p:first-child{
+  font-size: 1em;
+}
+.video-container p{
+  font-size: 0.8em;
+  color: #666;
+}
+
+#spirals-figure{
+  position: static;
+  margin: 30px 0;
+}
+#spirals-figure img{
+  
+  width: 600px;
+
+}
+footer a{
+  text-decoration: none;
+  color: #999
+}
+footer p{
+  color: #999
+}
+.go-to-comments, .footer-social{
+  float: left;
+  margin-bottom: 40px;
 }
