@@ -393,13 +393,20 @@ aside section::-webkit-scrollbar { width: 0 !important }
 /* footer */
 
   .footer-related-links{
-    width: 85%;
+    width: 1200px;
     margin: 0 auto;
     overflow:auto;
   }
+  .more-videos{
+    border-top: 1px solid black;
+  }
+  .most-popular{
+    margin-left: 20px;
+    border-top: 1px solid black;
+  }
 
   .footer-related-links h2{
-    margin: 5px 0;
+    margin: 15px 0;
   }
 
   .footer-related-links li p{
@@ -459,6 +466,9 @@ aside section::-webkit-scrollbar { width: 0 !important }
     border: none;
   }
 /* footer */
+
+
+/* footer navbar */
 
 .footer-nav{
   width: 1200px;
@@ -537,4 +547,5 @@ aside section::-webkit-scrollbar { width: 0 !important }
   width: 12px;
 }
 
+/* footer navbar */
 
