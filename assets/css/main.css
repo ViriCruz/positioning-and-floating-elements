@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -60,7 +60,7 @@ nav{
   border-bottom-width: 1px;
 }
 
-nav div{
+nav>div{
   width: 30%;
 }
 
@@ -388,3 +388,80 @@ aside section::-webkit-scrollbar { width: 0 !important }
   padding: 8px 9px 6px;
   width: 100%;
 }
+.footer-nav{
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  border-top: 4px solid rgb(226, 226, 226);
+  padding-top: 15px;
+  
+}
+.footer-nav header>div{
+  width: 33%;
+  display: inline-block;
+}
+.footer-nav header>div svg{
+  width: 180px;
+}
+.footer-nav header>div>div{
+  float: right;
+  font-size: 10px;
+  color: #6288A5;
+  
+}
+.footer-nav header a{
+  text-decoration: none;
+}
+
+
+
+.footer-nav>div{
+  width: 100%;
+}
+.footer-nav>div>div{
+  width: 100%;
+}
+.footer-nav ul{
+  list-style: none;
+  line-height: 1.5;
+  font-size: 14px
+}
+.footer-nav section{
+  width: 200px;
+  float: left;
+}
+.footer-nav section h3{
+  font-weight: 600;
+  margin: 13px 0 10px 0;
+  font-size: 13px;
+}
+
+.footer-nav section:last-child{
+  padding-left: 20px;
+  width: 177px;
+  border-left: 1px solid rgb(226,226,226)
+}
+.footer-nav section:last-child>ul{
+  line-height: 2.2;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 15px;
+  
+}
+.footer-nav section:last-child>div:last-child{
+  border-top: 1px solid rgb(226, 226, 226);
+
+}
+
+.subscribe-ul>li{
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+
+/* icon sizes */
+.footer-nav span>div{
+  display: inline-block;
+  width: 12px;
+}
+
