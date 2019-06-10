@@ -58,6 +58,7 @@ nav{
   border-bottom-style: solid;
   border-bottom-color:#f1eeee;
   border-bottom-width: 1px;
+  z-index: 3;
 }
 
 nav div{
@@ -388,3 +389,73 @@ aside section::-webkit-scrollbar { width: 0 !important }
   padding: 8px 9px 6px;
   width: 100%;
 }
+
+/* footer */
+
+  .footer-related-links{
+    width: 85%;
+    margin: 0 auto;
+    overflow:auto;
+  }
+
+  .footer-related-links h2{
+    margin: 5px 0;
+  }
+
+  .footer-related-links li p{
+    font-size: 12px;
+  }
+  .footer-related-links>div:first-child{
+    width: 65%;
+    float:left;
+  }
+
+  .footer-related-links>div:last-child{
+    width: 25%;
+    float:left;
+  }
+
+  .footer-related-links figure img, .footer-related-links figure{
+    width: 270px;
+  }
+
+  .footer-related-links figure figcaption{
+    font-size:10px;
+    color: #999;
+    text-align: end;
+  }
+
+  .footer-related-links>div:first-child ul li{
+    float:left;
+    width: 30%;
+    margin: 0 20px 20px 0;
+  }
+
+  .footer-related-links>div div{
+    width: 100%;
+  }
+
+  .footer-related-links a{
+    color: #121212;
+  }
+
+  .most-popular li{
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    font-size: 19px;
+    line-height: 1.5;
+  }
+
+  .most-popular li a{
+    font-weight: 600;
+  }
+
+  .most-popular h2{
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding-bottom: 15px;
+  }
+
+  .most-popular li:last-child{
+    border: none;
+  }
+/* footer */
