@@ -548,3 +548,26 @@ aside section::-webkit-scrollbar { width: 0 !important }
 
 /* footer navbar */
 
+/* bottom navbar */
+
+.nav-bottom{
+  position: relative;
+  
+}
+.nav-bottom ul{
+  list-style: none;
+  font-size: 11px;
+  color: #999;
+  text-decoration: none;
+  display: inline;
+  margin: auto;
+
+}
+.nav-bottom li{
+  display: inline-block;
+  padding: 10px 0 10px 0;
+  margin: 5px 10px;
+}
+
+
+/* bottom navbar */
