@@ -113,6 +113,11 @@ main{
   margin: auto;
   
 }
+main>section{
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
 /* main */
 
 
@@ -322,6 +327,7 @@ aside{
   width: 200px;
   right: 0;
   top: 1000px;
+  z-index: 0;
 
 }
 aside img{
@@ -478,14 +484,14 @@ aside section::-webkit-scrollbar { width: 0 !important }
   padding-top: 15px;
   
 }
-.footer-nav header>div{
+.footer-header>div{
   width: 33%;
   display: inline-block;
 }
-.footer-nav header>div svg{
+.footer-header>div svg{
   width: 180px;
 }
-.footer-nav header>div>div{
+.footer-header>div>div{
   float: right;
   font-size: 10px;
   color: #6288A5;
@@ -541,7 +547,7 @@ aside section::-webkit-scrollbar { width: 0 !important }
 
 
 /* icon sizes */
-.footer-nav span>div{
+.footer-nav a>div{
   display: inline-block;
   width: 12px;
 }
