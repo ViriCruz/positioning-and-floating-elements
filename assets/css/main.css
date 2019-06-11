@@ -320,7 +320,7 @@ body{
 aside{
   position: absolute;
   width: 200px;
-  right: 350px;
+  right: 0;
   top: 1000px;
 
 }
@@ -491,11 +491,10 @@ aside section::-webkit-scrollbar { width: 0 !important }
   color: #6288A5;
   
 }
-.footer-nav header a{
+.footer-nav a{
   text-decoration: none;
+  color: #121212;
 }
-
-
 
 .footer-nav>div{
   width: 100%;
