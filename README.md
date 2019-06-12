@@ -16,4 +16,4 @@ this project was achived thanks to
 
 # The Website
 
-The results of this project are presented at the site's webpage [link for the site](https://carloshdelreal.github.io/ny-times-example/)
+The results of this project are presented at the site's webpage [link for the site](https://viricruz.github.io/positioning-and-floating-elements/)
