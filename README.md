@@ -1,19 +1,44 @@
-# Positioning and floating elements Project
+# Positioning and floating elements
 
-In this project was developed a clone of one article published by [The New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0), following the structure of [The Odin Project](https://www.theodinproject.com/). for this project we have to implement many of the techniques shown in the lectures for positioning, principally the float and position properties
+In this project was developed a clone of one article published by [The New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0), following the structure of [The Odin Project](https://www.theodinproject.com/). Also we implemented many techniques for positioning, principally the float and position properties.
 
-For achieving this results it was used:
+<p>
+  <img src="https://capturefullpage.com/uploads/5ef142e79b553-converted/github.io.jpg" alt="article clone" />
+</p>
 
-* HTML
-* CSS
 
-# Authors
+## Live Version
+[Live version.](https://viricruz.github.io/positioning-and-floating-elements/)
 
-this project was achived thanks to 
 
-* Gabriela Cruz [Github account](https://github.com/ViriCruz) [https://github.com/ViriCruz](https://github.com/ViriCruz)
-* Carlos Del Real [Github account](https://github.com/carloshdelreal) [https://github.com/carloshdelreal](https://github.com/carloshdelreal) 
+## Built With ✨
 
-# The Website
+- HTML5
+- CSS3
 
-The results of this project are presented at the site's webpage [link for the site](https://viricruz.github.io/positioning-and-floating-elements/)
+## Install
+
+Download files located on the master branch and, open index.html on your browser.
+
+## Usage instructions
+This is just a static page, it doesn't contain any behavior, just scroll over the page to see the design.
+
+## How to contribute and participate
+Fork this repo and submit a PR for review and potential merge to the main branch. Feel free to leave feedback. :smile:
+
+## Authors
+
+👨‍💻 **Gabriela Cruz**
+
+- Github [@viricruz](https://github.com/ViriCruz/)
+
+- Email me at viridiana.cruz.olivera@gmail.com
+
+- LinkedIn [@viricruz](https://www.linkedin.com/in/viricruz/)
+
+👨‍💻 **Carlos Del Real**
+
+- Github [@carloshdelreal](https://github.com/carloshDelREal)
+
+- LinkedIn [@carloshdelreal](https://www.linkedin.com/in/carloshDelreal/) 
+
