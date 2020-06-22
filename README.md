@@ -1,6 +1,6 @@
 # Positioning and floating elements
 
-In this project was developed a clone of one article published by [The New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0), following the structure of [The Odin Project](https://www.theodinproject.com/). Also we implemented many techniques for positioning, principally the float and position properties.
+This project is a clone of one article published by [The New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0), following the structure of [The Odin Project](https://www.theodinproject.com/). Also, we implemented many techniques for positioning, principally the float and position properties.
 
 <p>
   <img src="https://capturefullpage.com/uploads/5ef142e79b553-converted/github.io.jpg" alt="article clone" />
